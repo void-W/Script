@@ -309,7 +309,6 @@ Before you scream Oh My Zsh! please look over the ~/.zshrc file to select plugin
 EOF
   printf "$RESET"
 
-  cp install_omzsh.sh ~/.oh-my-zsh/tools/install.sh
   sed -i "s/robbyrussell/ys/" ~/.zshrc
   if [ $RUNZSH = no ]; then
     echo "${YELLOW}Run zsh to try it out.${RESET}"
